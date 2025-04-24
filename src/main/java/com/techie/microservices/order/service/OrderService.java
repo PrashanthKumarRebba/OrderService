@@ -24,5 +24,6 @@ public class OrderService {
         order.setSkuCode(orderRequest.skuCode());
         order.setQuantity(orderRequest.quantity());
         orderRepository.save(order);
+//        ggddashdjao
     }
 }
